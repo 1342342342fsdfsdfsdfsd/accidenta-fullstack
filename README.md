@@ -14,10 +14,10 @@ Aplicación móvil enfocada en reducir drásticamente los tiempos de respuesta a
 - Frontend: React Native, Expo, Typescript
 - Testing: Jest, Supertest, React Native Testing Library
 
-### Habilidades 
-- Gestion de proyectos: Scrum (JIRA)
-- Testing: Plan de testing con diseño de casos y pruebas (unitarias, de integración, de humo y de regresión).
-- CI/CD: GitHub Actions
+### Habilidades principales
+- Gestión de proyectos / Agile: Scrum con JIRA
+- Testing QA: diseño de casos de prueba y ejecución de pruebas (unitarias, integración, humo y regresión).
+- CI/CD: pipelines en GitHub Actions
 
 ### ¿Cómo descargar y ejecutar el proyecto?
 
@@ -33,8 +33,7 @@ cd backend
 npm install
 ```
 
-**Crear un archivo ".env" con:**
-
+Crear un archivo ".env" con:
 ```env
 DB_HOST=localhost
 DB_PORT=5432
@@ -56,8 +55,7 @@ cd frontend
 npm install
 ```
 
-**Crear un archivo `.env` con:**
-
+Crear un archivo `.env` con:
 ```env
 API_BASE_URL=http://<TU-IP-LOCAL>:3000/
 ```
@@ -66,7 +64,7 @@ API_BASE_URL=http://<TU-IP-LOCAL>:3000/
 npx expo start
 ```
 
-**Escaneá el QR con la app Expo Go en tu celular.**
+Escaneá el QR con la app Expo Go en tu celular.
 
 ### Más información
 
