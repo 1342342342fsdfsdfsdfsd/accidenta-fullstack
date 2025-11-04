@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: postgres_postgis
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: accidenta
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  db_test:
+    image: postgis/postgis:15-3.3
+    container_name: postgres_postgis_test
+    restart: always
+    ports:
+      - '5433:5432' # puerto distinto para no chocar con el dev
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: accidenta_test
+    volumes:
+      - postgres_test_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+  postgres_test_data:

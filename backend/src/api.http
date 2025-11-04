@@ -1,0 +1,55 @@
+### REGISTER
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "dni": "42341171",
+  "nombre": "Yoel",
+  "apellido": "Ventoso",
+  "fechaNacimiento": "2000-02-01",
+  "telefono": "1153419894",
+  "email": "yoel.ventoso4@gmail.com",
+  "password": "12345678",
+  "imagen": "hola.png"
+}
+
+### LOGIN
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "yoel.ventoso@gmail.com",
+  "password": "Hola1234"
+}
+
+// ----------------------------------------------------------
+
+### CREAR REPORTE
+POST http://localhost:3000/reports
+Content-Type: application/json
+Authorization: Bearer {{$TOKEN}}
+
+{
+  "tipoAccidente": "laboral",
+  "dni": "12345678",
+  "ubicacion": "HUDSON",
+  "descripcion": "ME ROBARON",
+  "usuario": {
+    "dni": "42341174"
+  }
+}
+
+### OBTENER TODOS LOS REPORTES
+GET http://localhost:3000/reports
+
+// ----------------------------------------------------------
+
+### OBTENER EL USUARIO LOGEADO
+GET http://localhost:3000/users/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA0Yjg0NTBiLTg4NmUtNDBlZS1iMGY1LTQ2MWQ0NDY2ZGVkYyIsImVtYWlsIjoieW9lbC52ZW50b3NvQGdtYWlsLmNvbSIsImlhdCI6MTc1Nzk2Njg3MywiZXhwIjoxNzU3OTcwNDczfQ.t1NRCHXshb5gAJmPjihCSFM7RtudqgvZYGWwkEYnqpI
+Content-Type: application/json
+
+### OBTENER TODOS LOS USUARIOS
+GET http://localhost:3000/users
+
+

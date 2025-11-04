@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".", // raíz del proyecto para poder incluir test/
+    "types": ["jest", "node"] // incluye tipos de Jest
+  },
+  "include": ["test/**/*.ts", "src/**/*.ts", "jest.config.ts"]
+}
